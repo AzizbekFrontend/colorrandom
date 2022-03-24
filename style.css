@@ -1,0 +1,26 @@
+ 
+ /* @import url(https://fonts.googleapis.com/css2?family=Kalam:wght@100;200;300;400;500;600;700&display=swap);  */
+
+ @import url(https://fonts.googleapis.com/css2?family=Kalam:wght@100;200;300;400;500;600;700&display=swap);
+ 
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: 'Kalam', handwriting; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 25px;
+}
+.container{
+    border:2px solid ;
+    border-radius:15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
